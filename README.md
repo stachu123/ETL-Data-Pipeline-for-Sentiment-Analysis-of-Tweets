@@ -44,6 +44,9 @@ The project includes Airflow DAG for orchestrating the ETL process. These DAGs a
 
 twitter_data_dag.py: Defines the ETL workflow with tasks for each step in the pipeline.
 
+![image](https://github.com/stachu123/ETL-Data-Pipeline-for-Sentiment-Analysis-of-Tweets/assets/100467155/00ff3ae2-1166-4a62-bde1-b95c39934e2b)
+
+
 ## Twitter-roBERTa-base for Sentiment Analysis
 
 The model used for sentiment analysis in this project comes from https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment
