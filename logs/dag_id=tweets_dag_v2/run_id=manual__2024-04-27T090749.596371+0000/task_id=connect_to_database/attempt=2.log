@@ -1,0 +1,50 @@
+[2024-04-30T06:46:51.064+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-30T06:46:51.138+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tweets_dag_v2.connect_to_database manual__2024-04-27T09:07:49.596371+00:00 [queued]>
+[2024-04-30T06:46:51.151+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tweets_dag_v2.connect_to_database manual__2024-04-27T09:07:49.596371+00:00 [queued]>
+[2024-04-30T06:46:51.152+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 7
+[2024-04-30T06:46:51.178+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): connect_to_database> on 2024-04-27 09:07:49.596371+00:00
+[2024-04-30T06:46:51.200+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1924) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-04-30T06:46:51.198+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tweets_dag_v2', 'connect_to_database', 'manual__2024-04-27T09:07:49.596371+00:00', '--job-id', '168', '--raw', '--subdir', 'DAGS_FOLDER/twitter_data_dag.py', '--cfg-path', '/tmp/tmpntkrqdgf']
+[2024-04-30T06:46:51.202+0000] {standard_task_runner.py:63} INFO - Started process 1990 to run task
+[2024-04-30T06:46:51.202+0000] {standard_task_runner.py:91} INFO - Job 168: Subtask connect_to_database
+[2024-04-30T06:46:51.278+0000] {task_command.py:426} INFO - Running <TaskInstance: tweets_dag_v2.connect_to_database manual__2024-04-27T09:07:49.596371+00:00 [running]> on host 586a550baf6e
+[2024-04-30T06:46:51.412+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='stan' AIRFLOW_CTX_DAG_ID='tweets_dag_v2' AIRFLOW_CTX_TASK_ID='connect_to_database' AIRFLOW_CTX_EXECUTION_DATE='2024-04-27T09:07:49.596371+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-27T09:07:49.596371+00:00'
+[2024-04-30T06:46:51.415+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-30T06:46:51.450+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-30T06:46:51.451+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/load_to_postgres.py", line 4, in connect_to_database
+    connection = psycopg2.connect(
+                 ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 54321 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 54321 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2024-04-30T06:46:51.471+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=tweets_dag_v2, task_id=connect_to_database, execution_date=20240427T090749, start_date=20240430T064651, end_date=20240430T064651
+[2024-04-30T06:46:51.492+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 168 for task connect_to_database (connection to server at "localhost" (127.0.0.1), port 54321 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 54321 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+; 1990)
+[2024-04-30T06:46:51.538+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-30T06:46:51.567+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-30T06:46:51.570+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

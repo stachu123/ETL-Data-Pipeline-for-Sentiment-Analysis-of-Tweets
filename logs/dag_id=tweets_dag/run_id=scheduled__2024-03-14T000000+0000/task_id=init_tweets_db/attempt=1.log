@@ -1,0 +1,113 @@
+[2024-04-26T14:33:53.050+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-26T14:33:53.181+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tweets_dag.init_tweets_db scheduled__2024-03-14T00:00:00+00:00 [queued]>
+[2024-04-26T14:33:53.216+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tweets_dag.init_tweets_db scheduled__2024-03-14T00:00:00+00:00 [queued]>
+[2024-04-26T14:33:53.224+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-04-26T14:33:53.330+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): init_tweets_db> on 2024-03-14 00:00:00+00:00
+[2024-04-26T14:33:53.363+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2563) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-04-26T14:33:53.387+0000] {standard_task_runner.py:63} INFO - Started process 2585 to run task
+[2024-04-26T14:33:53.364+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tweets_dag', 'init_tweets_db', 'scheduled__2024-03-14T00:00:00+00:00', '--job-id', '134', '--raw', '--subdir', 'DAGS_FOLDER/twitter_data_dag.py', '--cfg-path', '/tmp/tmpkn_so67v']
+[2024-04-26T14:33:53.399+0000] {standard_task_runner.py:91} INFO - Job 134: Subtask init_tweets_db
+[2024-04-26T14:33:53.682+0000] {task_command.py:426} INFO - Running <TaskInstance: tweets_dag.init_tweets_db scheduled__2024-03-14T00:00:00+00:00 [running]> on host 0ceb125076fc
+[2024-04-26T14:33:54.050+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='stan' AIRFLOW_CTX_DAG_ID='tweets_dag' AIRFLOW_CTX_TASK_ID='init_tweets_db' AIRFLOW_CTX_EXECUTION_DATE='2024-03-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-14T00:00:00+00:00'
+[2024-04-26T14:33:54.058+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-26T14:33:54.112+0000] {sql.py:276} INFO - Executing: CREATE TABLE positive_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE negative_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE neutral_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+[2024-04-26T14:33:54.184+0000] {base.py:84} INFO - Using connection ID 'tweets_localhost' for task execution.
+[2024-04-26T14:33:54.218+0000] {base.py:84} INFO - Using connection ID 'tweets_localhost' for task execution.
+[2024-04-26T14:33:54.272+0000] {sql.py:457} INFO - Running statement: CREATE TABLE positive_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE negative_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE neutral_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+, parameters: None
+[2024-04-26T14:33:54.294+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-26T14:33:54.297+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DuplicateTable: relation "positive_tweets" already exists
+
+[2024-04-26T14:33:54.359+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=tweets_dag, task_id=init_tweets_db, execution_date=20240314T000000, start_date=20240426T143353, end_date=20240426T143354
+[2024-04-26T14:33:54.412+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 134 for task init_tweets_db (relation "positive_tweets" already exists
+; 2585)
+[2024-04-26T14:33:54.453+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-26T14:33:54.508+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-26T14:33:54.513+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,83 @@
+[2024-04-26T14:32:31.731+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-26T14:32:31.868+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tweets_dag.tweets_localhost scheduled__2024-03-19T00:00:00+00:00 [queued]>
+[2024-04-26T14:32:31.908+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tweets_dag.tweets_localhost scheduled__2024-03-19T00:00:00+00:00 [queued]>
+[2024-04-26T14:32:31.911+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 7
+[2024-04-26T14:32:32.016+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): tweets_localhost> on 2024-03-19 00:00:00+00:00
+[2024-04-26T14:32:32.039+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=2437) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-04-26T14:32:32.040+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tweets_dag', 'tweets_localhost', 'scheduled__2024-03-19T00:00:00+00:00', '--job-id', '122', '--raw', '--subdir', 'DAGS_FOLDER/twitter_data_dag.py', '--cfg-path', '/tmp/tmp_10db7ns']
+[2024-04-26T14:32:32.050+0000] {standard_task_runner.py:91} INFO - Job 122: Subtask tweets_localhost
+[2024-04-26T14:32:32.046+0000] {standard_task_runner.py:63} INFO - Started process 2460 to run task
+[2024-04-26T14:32:32.236+0000] {task_command.py:426} INFO - Running <TaskInstance: tweets_dag.tweets_localhost scheduled__2024-03-19T00:00:00+00:00 [running]> on host 0ceb125076fc
+[2024-04-26T14:32:32.694+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='stan' AIRFLOW_CTX_DAG_ID='tweets_dag' AIRFLOW_CTX_TASK_ID='tweets_localhost' AIRFLOW_CTX_EXECUTION_DATE='2024-03-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-19T00:00:00+00:00'
+[2024-04-26T14:32:32.701+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-26T14:32:32.749+0000] {sql.py:276} INFO - Executing: CREATE TABLE positive_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE negative_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+CREATE TABLE neutral_tweets (
+    id SERIAL PRIMARY KEY,
+    roberta_neg NUMERIC,
+    roberta_neu NUMERIC,
+    roberta_pos NUMERIC,
+    author VARCHAR(50),
+    content TEXT,
+    date_time TIMESTAMP,
+    number_of_likes INTEGER,
+    number_of_shares INTEGER
+);
+
+[2024-04-26T14:32:32.800+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-26T14:32:32.829+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 277, in execute
+    hook = self.get_db_hook()
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 188, in get_db_hook
+    return self._hook
+           ^^^^^^^^^^
+  File "/usr/local/lib/python3.12/functools.py", line 995, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 150, in _hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py", line 519, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_localhost` isn't defined
+[2024-04-26T14:32:32.841+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=tweets_dag, task_id=tweets_localhost, execution_date=20240319T000000, start_date=20240426T143231, end_date=20240426T143232
+[2024-04-26T14:32:32.880+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 122 for task tweets_localhost (The conn_id `postgres_localhost` isn't defined; 2460)
+[2024-04-26T14:32:32.906+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-26T14:32:32.934+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-26T14:32:32.936+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
