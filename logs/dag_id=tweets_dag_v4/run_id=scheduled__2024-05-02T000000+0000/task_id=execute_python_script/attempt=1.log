@@ -1,0 +1,15 @@
+[2024-05-06T07:31:00.534+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-06T07:31:00.630+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tweets_dag_v4.execute_python_script scheduled__2024-05-02T00:00:00+00:00 [queued]>
+[2024-05-06T07:31:00.654+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tweets_dag_v4.execute_python_script scheduled__2024-05-02T00:00:00+00:00 [queued]>
+[2024-05-06T07:31:00.656+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-05-06T07:31:00.697+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): execute_python_script> on 2024-05-02 00:00:00+00:00
+[2024-05-06T07:31:00.734+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1164) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-06T07:31:00.739+0000] {standard_task_runner.py:63} INFO - Started process 1320 to run task
+[2024-05-06T07:31:00.744+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tweets_dag_v4', 'execute_python_script', 'scheduled__2024-05-02T00:00:00+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/twitter_data_dag.py', '--cfg-path', '/tmp/tmpu562in2q']
+[2024-05-06T07:31:00.751+0000] {standard_task_runner.py:91} INFO - Job 132: Subtask execute_python_script
+[2024-05-06T07:31:00.920+0000] {task_command.py:426} INFO - Running <TaskInstance: tweets_dag_v4.execute_python_script scheduled__2024-05-02T00:00:00+00:00 [running]> on host 5efa3aaee11b
+[2024-05-06T07:31:01.193+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='stan' AIRFLOW_CTX_DAG_ID='tweets_dag_v4' AIRFLOW_CTX_TASK_ID='execute_python_script' AIRFLOW_CTX_EXECUTION_DATE='2024-05-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-02T00:00:00+00:00'
+[2024-05-06T07:31:01.197+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-06T07:31:46.769+0000] {local_task_job_runner.py:240} INFO - Task exited with return code -9
+[2024-05-06T07:31:47.195+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-06T07:31:47.200+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

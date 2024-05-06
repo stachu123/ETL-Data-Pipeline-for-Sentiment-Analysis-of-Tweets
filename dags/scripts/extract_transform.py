@@ -26,7 +26,7 @@ def roberta_classifier():
     '''
 
     #loading the csv file
-    tweets = pd.read_csv("/opt/airflow/dags/tweets.csv")
+    tweets = pd.read_csv("/opt/airflow/dags/data/tweets.csv")
     #removing tweets with language different than en
     tweets = tweets[tweets['language'] == 'en']
     # dropping latitude and longitude columns as there is only one row with their values
@@ -63,7 +63,7 @@ def roberta_classifier():
     res_df = pd.DataFrame(res).T
     res_df = res_df.reset_index().rename(columns={'index': 'id'})
     res_df = res_df.merge(tweets, how='left')
-    res_df.to_csv("/opt/airflow/dags/all_tweets.csv", index=False)
+    res_df.to_csv("/opt/airflow/dags/data/all_tweets.csv", index=False)
 
 
 

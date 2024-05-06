@@ -9,11 +9,11 @@ def load_csv_postgres():
     """ dedicated to loading the data from csv file into postgres sql"""
 
     #creating connection to the local databae
-    engine = create_engine('postgresql+psycopg2://airflow:airflow@host.docker.internal:54321/tweets')
+    engine = create_engine('postgresql+psycopg2://airflow:airflow@host.docker.internal:54321/postgres')
     connection = engine.connect()
 
     #Separating the df into 3 new dfs based on the maximum value in the sentiment columns
-    df = pd.read_csv("/opt/airflow/dags/all_tweets.csv")
+    df = pd.read_csv("/opt/airflow/dags/data/all_tweets.csv")
     # df = pd.read_csv("dags/all_tweets.csv")
     df.drop(['country', 'language'], axis=1, inplace=True)
     df['date_time'] = pd.to_datetime(df['date_time'], format='%d/%m/%Y %H:%M')

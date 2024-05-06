@@ -1,0 +1,934 @@
+[2024-04-30T12:52:56.786+0000] {processor.py:161} INFO - Started process (PID=172) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:52:56.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:52:56.790+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:52:56.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:53:02.420+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:53:02.436+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 5.658 seconds
+[2024-04-30T12:53:33.161+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:53:33.163+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:53:33.166+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:53:33.165+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:53:37.838+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:53:37.881+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 4.729 seconds
+[2024-04-30T12:54:08.439+0000] {processor.py:161} INFO - Started process (PID=295) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:08.442+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:54:08.449+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:54:08.448+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:11.616+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:11.640+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.218 seconds
+[2024-04-30T12:54:42.131+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:42.134+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:54:42.138+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:54:42.137+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:50.218+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:54:50.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 8.145 seconds
+[2024-04-30T12:55:20.784+0000] {processor.py:161} INFO - Started process (PID=452) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:55:20.787+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:55:20.789+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:55:20.789+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:55:26.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:55:26.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 5.723 seconds
+[2024-04-30T12:55:57.343+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:55:57.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:55:57.346+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:55:57.346+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:56:00.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:56:00.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.135 seconds
+[2024-04-30T12:56:31.456+0000] {processor.py:161} INFO - Started process (PID=580) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:56:31.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:56:31.465+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:56:31.464+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:56:35.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:56:35.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.841 seconds
+[2024-04-30T12:57:05.796+0000] {processor.py:161} INFO - Started process (PID=656) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:05.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:57:05.802+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:57:05.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:09.627+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:09.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.858 seconds
+[2024-04-30T12:57:40.054+0000] {processor.py:161} INFO - Started process (PID=716) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:40.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:57:40.058+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:57:40.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:42.645+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:57:42.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.621 seconds
+[2024-04-30T12:58:13.234+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:13.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:58:13.238+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:58:13.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:16.053+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:16.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.843 seconds
+[2024-04-30T12:58:46.490+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:46.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:58:46.493+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:58:46.493+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:49.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:58:49.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.763 seconds
+[2024-04-30T12:59:19.825+0000] {processor.py:161} INFO - Started process (PID=860) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:19.826+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:59:19.828+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:59:19.828+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:22.326+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:22.345+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.526 seconds
+[2024-04-30T12:59:52.844+0000] {processor.py:161} INFO - Started process (PID=906) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:52.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T12:59:52.847+0000] {logging_mixin.py:188} INFO - [2024-04-30T12:59:52.847+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:55.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T12:59:55.624+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.787 seconds
+[2024-04-30T13:00:26.074+0000] {processor.py:161} INFO - Started process (PID=952) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:00:26.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:00:26.078+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:00:26.078+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:00:28.641+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:00:28.690+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.622 seconds
+[2024-04-30T13:00:59.204+0000] {processor.py:161} INFO - Started process (PID=998) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:00:59.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:00:59.207+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:00:59.207+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:01:01.679+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:01:01.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.502 seconds
+[2024-04-30T13:01:32.181+0000] {processor.py:161} INFO - Started process (PID=1044) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:01:32.182+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:01:32.184+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:01:32.183+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:01:34.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:01:34.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.425 seconds
+[2024-04-30T13:02:05.054+0000] {processor.py:161} INFO - Started process (PID=1090) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:05.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:02:05.057+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:02:05.056+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:07.620+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:07.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.588 seconds
+[2024-04-30T13:02:38.052+0000] {processor.py:161} INFO - Started process (PID=1136) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:38.053+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:02:38.056+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:02:38.055+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:40.513+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:02:40.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.496 seconds
+[2024-04-30T13:03:10.983+0000] {processor.py:161} INFO - Started process (PID=1182) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:10.984+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:03:10.986+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:03:10.986+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:13.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:13.541+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.565 seconds
+[2024-04-30T13:03:43.920+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:43.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:03:43.923+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:03:43.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:46.486+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:03:46.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.591 seconds
+[2024-04-30T13:04:16.960+0000] {processor.py:161} INFO - Started process (PID=1280) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:16.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:04:16.963+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:04:16.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:19.471+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:19.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.559 seconds
+[2024-04-30T13:04:49.906+0000] {processor.py:161} INFO - Started process (PID=1326) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:49.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:04:49.908+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:04:49.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:52.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:04:52.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.556 seconds
+[2024-04-30T13:05:22.941+0000] {processor.py:161} INFO - Started process (PID=1372) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:22.942+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:05:22.944+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:05:22.943+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:25.454+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:25.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.552 seconds
+[2024-04-30T13:05:55.981+0000] {processor.py:161} INFO - Started process (PID=1418) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:55.982+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:05:55.984+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:05:55.984+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:58.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:05:58.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.486 seconds
+[2024-04-30T13:06:28.948+0000] {processor.py:161} INFO - Started process (PID=1464) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:06:28.949+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:06:28.951+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:06:28.950+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:06:31.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:06:31.553+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.611 seconds
+[2024-04-30T13:07:02.003+0000] {processor.py:161} INFO - Started process (PID=1510) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:02.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:07:02.006+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:07:02.005+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:04.505+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:04.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.523 seconds
+[2024-04-30T13:07:34.900+0000] {processor.py:161} INFO - Started process (PID=1556) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:34.901+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:07:34.903+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:07:34.902+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:37.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:07:37.668+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.774 seconds
+[2024-04-30T13:08:08.091+0000] {processor.py:161} INFO - Started process (PID=1602) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:08.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:08:08.095+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:08:08.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:10.650+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:10.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.581 seconds
+[2024-04-30T13:08:41.111+0000] {processor.py:161} INFO - Started process (PID=1648) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:41.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:08:41.114+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:08:41.114+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:43.848+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:08:43.878+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.775 seconds
+[2024-04-30T13:09:14.323+0000] {processor.py:161} INFO - Started process (PID=1700) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:14.325+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:09:14.327+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:09:14.326+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:17.037+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:17.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.734 seconds
+[2024-04-30T13:09:47.453+0000] {processor.py:161} INFO - Started process (PID=1746) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:47.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:09:47.456+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:09:47.456+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:50.030+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:09:50.049+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.602 seconds
+[2024-04-30T13:10:20.454+0000] {processor.py:161} INFO - Started process (PID=1792) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:20.455+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:10:20.457+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:10:20.457+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:23.029+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:23.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.607 seconds
+[2024-04-30T13:10:53.506+0000] {processor.py:161} INFO - Started process (PID=1839) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:53.507+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:10:53.509+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:10:53.509+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:56.134+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:10:56.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.671 seconds
+[2024-04-30T13:11:26.613+0000] {processor.py:161} INFO - Started process (PID=1885) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:11:26.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:11:26.617+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:11:26.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:11:29.114+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:11:29.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.537 seconds
+[2024-04-30T13:11:59.598+0000] {processor.py:161} INFO - Started process (PID=1931) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:11:59.599+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:11:59.601+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:11:59.601+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:12:02.115+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:12:02.146+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.556 seconds
+[2024-04-30T13:12:32.618+0000] {processor.py:161} INFO - Started process (PID=1977) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:12:32.619+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:12:32.621+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:12:32.621+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:12:35.208+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:12:35.225+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.612 seconds
+[2024-04-30T13:13:05.739+0000] {processor.py:161} INFO - Started process (PID=2023) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:05.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:13:05.742+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:13:05.742+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:08.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:08.275+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.545 seconds
+[2024-04-30T13:13:38.728+0000] {processor.py:161} INFO - Started process (PID=2069) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:38.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:13:38.731+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:13:38.731+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:41.257+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:13:41.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.549 seconds
+[2024-04-30T13:14:11.635+0000] {processor.py:161} INFO - Started process (PID=2115) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:11.636+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:14:11.638+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:14:11.638+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:14.382+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:14.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.773 seconds
+[2024-04-30T13:14:44.824+0000] {processor.py:161} INFO - Started process (PID=2168) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:44.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:14:44.826+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:14:44.826+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:47.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:14:47.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.598 seconds
+[2024-04-30T13:15:17.856+0000] {processor.py:161} INFO - Started process (PID=2214) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:17.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:15:17.859+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:15:17.859+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:20.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:20.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.636 seconds
+[2024-04-30T13:15:50.881+0000] {processor.py:161} INFO - Started process (PID=2260) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:50.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:15:50.884+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:15:50.883+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:53.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:15:53.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.717 seconds
+[2024-04-30T13:16:24.026+0000] {processor.py:161} INFO - Started process (PID=2306) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:24.027+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:16:24.030+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:16:24.030+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:26.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:26.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.672 seconds
+[2024-04-30T13:16:57.126+0000] {processor.py:161} INFO - Started process (PID=2352) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:57.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:16:57.129+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:16:57.128+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:59.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:16:59.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.539 seconds
+[2024-04-30T13:17:30.061+0000] {processor.py:161} INFO - Started process (PID=2398) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:17:30.062+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:17:30.064+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:17:30.064+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:17:32.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:17:32.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.598 seconds
+[2024-04-30T13:18:03.207+0000] {processor.py:161} INFO - Started process (PID=2444) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:03.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:18:03.210+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:18:03.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:05.746+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:05.765+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.565 seconds
+[2024-04-30T13:18:36.264+0000] {processor.py:161} INFO - Started process (PID=2490) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:36.265+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:18:36.267+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:18:36.266+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:39.469+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:18:39.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.278 seconds
+[2024-04-30T13:19:10.054+0000] {processor.py:161} INFO - Started process (PID=2536) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:10.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:19:10.057+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:19:10.057+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:12.709+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:12.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.673 seconds
+[2024-04-30T13:19:43.106+0000] {processor.py:161} INFO - Started process (PID=2588) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:43.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:19:43.109+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:19:43.109+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:45.626+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:19:45.642+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.542 seconds
+[2024-04-30T13:20:16.076+0000] {processor.py:161} INFO - Started process (PID=2634) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:16.077+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:20:16.081+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:20:16.080+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:18.898+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:18.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.845 seconds
+[2024-04-30T13:20:49.338+0000] {processor.py:161} INFO - Started process (PID=2680) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:49.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:20:49.341+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:20:49.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:51.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:20:51.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.612 seconds
+[2024-04-30T13:21:22.352+0000] {processor.py:161} INFO - Started process (PID=2727) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:22.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:21:22.357+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:21:22.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:25.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:25.530+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.186 seconds
+[2024-04-30T13:21:55.884+0000] {processor.py:161} INFO - Started process (PID=2773) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:55.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:21:55.887+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:21:55.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:58.579+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:21:58.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.715 seconds
+[2024-04-30T13:22:28.984+0000] {processor.py:161} INFO - Started process (PID=2819) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:22:28.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:22:28.989+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:22:28.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:22:31.941+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:22:31.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.978 seconds
+[2024-04-30T13:23:02.407+0000] {processor.py:161} INFO - Started process (PID=2865) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:02.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:23:02.410+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:23:02.410+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:05.241+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:05.254+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.855 seconds
+[2024-04-30T13:23:35.690+0000] {processor.py:161} INFO - Started process (PID=2911) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:35.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:23:35.696+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:23:35.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:38.936+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:23:38.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.276 seconds
+[2024-04-30T13:24:09.365+0000] {processor.py:161} INFO - Started process (PID=2957) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:09.366+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:24:09.368+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:24:09.368+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:12.131+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:12.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.799 seconds
+[2024-04-30T13:24:42.620+0000] {processor.py:161} INFO - Started process (PID=3003) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:42.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:24:42.623+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:24:42.622+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:45.471+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:24:45.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.873 seconds
+[2024-04-30T13:25:15.848+0000] {processor.py:161} INFO - Started process (PID=3055) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:15.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:25:15.851+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:25:15.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:18.504+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:18.518+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.676 seconds
+[2024-04-30T13:25:49.089+0000] {processor.py:161} INFO - Started process (PID=3101) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:49.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:25:49.092+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:25:49.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:51.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:25:51.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.844 seconds
+[2024-04-30T13:26:22.377+0000] {processor.py:161} INFO - Started process (PID=3147) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:22.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:26:22.380+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:26:22.380+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:25.081+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:25.102+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.731 seconds
+[2024-04-30T13:26:55.641+0000] {processor.py:161} INFO - Started process (PID=3193) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:55.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:26:55.644+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:26:55.644+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:58.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:26:58.239+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.606 seconds
+[2024-04-30T13:27:28.700+0000] {processor.py:161} INFO - Started process (PID=3239) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:27:28.701+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:27:28.702+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:27:28.702+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:27:31.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:27:31.415+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.723 seconds
+[2024-04-30T13:28:01.773+0000] {processor.py:161} INFO - Started process (PID=3285) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:01.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:28:01.776+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:28:01.775+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:04.341+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:04.355+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.590 seconds
+[2024-04-30T13:28:34.840+0000] {processor.py:161} INFO - Started process (PID=3331) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:34.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:28:34.843+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:28:34.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:37.891+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:28:37.904+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.071 seconds
+[2024-04-30T13:29:08.353+0000] {processor.py:161} INFO - Started process (PID=3377) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:08.354+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:29:08.356+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:29:08.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:11.448+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:11.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.123 seconds
+[2024-04-30T13:29:41.918+0000] {processor.py:161} INFO - Started process (PID=3423) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:41.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:29:41.922+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:29:41.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:44.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:29:44.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.757 seconds
+[2024-04-30T13:30:15.206+0000] {processor.py:161} INFO - Started process (PID=3475) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:15.208+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:30:15.210+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:30:15.210+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:17.961+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:17.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.780 seconds
+[2024-04-30T13:30:48.423+0000] {processor.py:161} INFO - Started process (PID=3521) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:48.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:30:48.426+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:30:48.426+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:52.203+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:30:52.217+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.801 seconds
+[2024-04-30T13:31:22.670+0000] {processor.py:161} INFO - Started process (PID=3567) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:22.671+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:31:22.675+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:31:22.675+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:25.522+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:25.540+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.876 seconds
+[2024-04-30T13:31:55.977+0000] {processor.py:161} INFO - Started process (PID=3613) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:55.979+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:31:55.984+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:31:55.983+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:59.538+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:31:59.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.588 seconds
+[2024-04-30T13:32:29.994+0000] {processor.py:161} INFO - Started process (PID=3660) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:32:29.996+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:32:29.999+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:32:29.999+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:32:32.799+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:32:32.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.830 seconds
+[2024-04-30T13:33:03.259+0000] {processor.py:161} INFO - Started process (PID=3706) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:03.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:33:03.263+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:33:03.262+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:05.964+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:06.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.752 seconds
+[2024-04-30T13:33:36.518+0000] {processor.py:161} INFO - Started process (PID=3752) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:36.520+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:33:36.522+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:33:36.522+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:39.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:33:39.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.482 seconds
+[2024-04-30T13:34:10.129+0000] {processor.py:161} INFO - Started process (PID=3795) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:10.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:34:10.132+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:34:10.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:13.152+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:13.168+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.047 seconds
+[2024-04-30T13:34:44.788+0000] {processor.py:161} INFO - Started process (PID=3857) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:44.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:34:44.791+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:34:44.791+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:48.157+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:34:48.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.390 seconds
+[2024-04-30T13:35:18.489+0000] {processor.py:161} INFO - Started process (PID=3903) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:18.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:35:18.496+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:35:18.495+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:21.308+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:21.322+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.841 seconds
+[2024-04-30T13:35:51.679+0000] {processor.py:161} INFO - Started process (PID=3949) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:51.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:35:51.683+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:35:51.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:54.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:35:54.826+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.156 seconds
+[2024-04-30T13:36:25.193+0000] {processor.py:161} INFO - Started process (PID=3994) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:36:25.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:36:25.196+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:36:25.196+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:36:28.439+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:36:28.469+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.282 seconds
+[2024-04-30T13:36:58.945+0000] {processor.py:161} INFO - Started process (PID=4040) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:36:58.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:36:58.947+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:36:58.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:37:01.914+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:37:01.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.000 seconds
+[2024-04-30T13:37:32.447+0000] {processor.py:161} INFO - Started process (PID=4086) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:37:32.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:37:32.450+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:37:32.450+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:37:35.135+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:37:35.148+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.707 seconds
+[2024-04-30T13:38:05.537+0000] {processor.py:161} INFO - Started process (PID=4132) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:05.538+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:38:05.541+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:38:05.540+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:08.336+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:08.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.841 seconds
+[2024-04-30T13:38:38.483+0000] {processor.py:161} INFO - Started process (PID=4175) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:38.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:38:38.486+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:38:38.486+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:41.499+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:38:41.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.039 seconds
+[2024-04-30T13:39:12.435+0000] {processor.py:161} INFO - Started process (PID=4224) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:12.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:39:12.438+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:39:12.437+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:15.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:15.419+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.991 seconds
+[2024-04-30T13:39:45.976+0000] {processor.py:161} INFO - Started process (PID=4276) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:45.978+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:39:45.980+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:39:45.980+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:49.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:39:49.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.087 seconds
+[2024-04-30T13:40:19.152+0000] {processor.py:161} INFO - Started process (PID=4319) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:19.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:40:19.155+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:40:19.155+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:21.591+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:21.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.470 seconds
+[2024-04-30T13:40:51.936+0000] {processor.py:161} INFO - Started process (PID=4365) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:51.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:40:51.940+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:40:51.939+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:54.375+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:40:54.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.459 seconds
+[2024-04-30T13:41:24.911+0000] {processor.py:161} INFO - Started process (PID=4411) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:41:24.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:41:24.914+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:41:24.913+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:41:27.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:41:27.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.672 seconds
+[2024-04-30T13:41:57.924+0000] {processor.py:161} INFO - Started process (PID=4457) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:41:57.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:41:57.927+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:41:57.927+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:42:00.557+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:42:00.573+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.655 seconds
+[2024-04-30T13:42:30.835+0000] {processor.py:161} INFO - Started process (PID=4509) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:42:30.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:42:30.841+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:42:30.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:42:33.296+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:42:33.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.481 seconds
+[2024-04-30T13:43:03.657+0000] {processor.py:161} INFO - Started process (PID=4555) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:03.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:43:03.660+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:43:03.660+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:06.114+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:06.129+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.478 seconds
+[2024-04-30T13:43:36.289+0000] {processor.py:161} INFO - Started process (PID=4601) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:36.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:43:36.292+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:43:36.292+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:38.853+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:43:38.866+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.583 seconds
+[2024-04-30T13:44:09.209+0000] {processor.py:161} INFO - Started process (PID=4647) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:09.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:44:09.213+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:44:09.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:11.741+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:11.756+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.553 seconds
+[2024-04-30T13:44:41.886+0000] {processor.py:161} INFO - Started process (PID=4693) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:41.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:44:41.889+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:44:41.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:44.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:44:44.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.528 seconds
+[2024-04-30T13:45:14.740+0000] {processor.py:161} INFO - Started process (PID=4739) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:14.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:45:14.744+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:45:14.744+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:17.223+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:17.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.505 seconds
+[2024-04-30T13:45:47.530+0000] {processor.py:161} INFO - Started process (PID=4791) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:47.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:45:47.533+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:45:47.533+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:50.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:45:50.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.533 seconds
+[2024-04-30T13:46:20.394+0000] {processor.py:161} INFO - Started process (PID=4837) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:20.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:46:20.398+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:46:20.397+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:22.827+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:22.844+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.456 seconds
+[2024-04-30T13:46:53.167+0000] {processor.py:161} INFO - Started process (PID=4883) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:53.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:46:53.172+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:46:53.172+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:55.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:46:55.627+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.465 seconds
+[2024-04-30T13:47:25.953+0000] {processor.py:161} INFO - Started process (PID=4929) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:47:25.954+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:47:25.956+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:47:25.956+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:47:28.426+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:47:28.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.501 seconds
+[2024-04-30T13:47:58.555+0000] {processor.py:161} INFO - Started process (PID=4976) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:47:58.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:47:58.559+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:47:58.559+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:48:01.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:48:01.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.534 seconds
+[2024-04-30T13:48:31.711+0000] {processor.py:161} INFO - Started process (PID=5022) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:48:31.712+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:48:31.715+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:48:31.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:48:34.214+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:48:34.229+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.528 seconds
+[2024-04-30T13:49:04.582+0000] {processor.py:161} INFO - Started process (PID=5068) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:04.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:49:04.585+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:49:04.585+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:07.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:07.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.467 seconds
+[2024-04-30T13:49:37.723+0000] {processor.py:161} INFO - Started process (PID=5114) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:37.724+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:49:37.726+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:49:37.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:40.219+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:49:40.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.516 seconds
+[2024-04-30T13:50:10.415+0000] {processor.py:161} INFO - Started process (PID=5160) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:10.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:50:10.419+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:50:10.418+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:13.381+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:13.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.990 seconds
+[2024-04-30T13:50:43.739+0000] {processor.py:161} INFO - Started process (PID=5212) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:43.740+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:50:43.742+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:50:43.741+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:46.280+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:50:46.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.562 seconds
+[2024-04-30T13:51:16.394+0000] {processor.py:161} INFO - Started process (PID=5264) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:16.395+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:51:16.397+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:51:16.396+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:18.987+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:19.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.612 seconds
+[2024-04-30T13:51:49.315+0000] {processor.py:161} INFO - Started process (PID=5310) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:49.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:51:49.318+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:51:49.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:51.828+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:51:51.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.532 seconds
+[2024-04-30T13:52:21.991+0000] {processor.py:161} INFO - Started process (PID=5356) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:21.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:52:21.994+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:52:21.993+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:24.432+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:24.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.465 seconds
+[2024-04-30T13:52:54.787+0000] {processor.py:161} INFO - Started process (PID=5402) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:54.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:52:54.791+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:52:54.790+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:57.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:52:57.238+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.457 seconds
+[2024-04-30T13:53:28.101+0000] {processor.py:161} INFO - Started process (PID=5448) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:53:28.102+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:53:28.104+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:53:28.104+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:53:30.656+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:53:30.669+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.575 seconds
+[2024-04-30T13:54:01.221+0000] {processor.py:161} INFO - Started process (PID=5494) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:01.222+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:54:01.224+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:54:01.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:04.043+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:04.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.842 seconds
+[2024-04-30T13:54:34.348+0000] {processor.py:161} INFO - Started process (PID=5540) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:34.349+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:54:34.351+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:54:34.351+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:36.761+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:54:36.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.436 seconds
+[2024-04-30T13:55:06.988+0000] {processor.py:161} INFO - Started process (PID=5586) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:06.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:55:06.991+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:55:06.991+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:09.498+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:09.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.528 seconds
+[2024-04-30T13:55:39.883+0000] {processor.py:161} INFO - Started process (PID=5632) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:39.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:55:39.887+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:55:39.887+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:42.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:55:42.420+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.556 seconds
+[2024-04-30T13:56:12.546+0000] {processor.py:161} INFO - Started process (PID=5678) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:12.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:56:12.549+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:56:12.549+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:14.984+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:14.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.458 seconds
+[2024-04-30T13:56:45.326+0000] {processor.py:161} INFO - Started process (PID=5724) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:45.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:56:45.329+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:56:45.329+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:47.928+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:56:47.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.625 seconds
+[2024-04-30T13:57:18.252+0000] {processor.py:161} INFO - Started process (PID=5776) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:18.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:57:18.256+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:57:18.255+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:20.868+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:20.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.638 seconds
+[2024-04-30T13:57:51.235+0000] {processor.py:161} INFO - Started process (PID=5822) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:51.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:57:51.238+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:57:51.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:53.670+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:57:53.683+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.455 seconds
+[2024-04-30T13:58:23.810+0000] {processor.py:161} INFO - Started process (PID=5868) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:23.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:58:23.814+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:58:23.813+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:26.246+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:26.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.458 seconds
+[2024-04-30T13:58:56.577+0000] {processor.py:161} INFO - Started process (PID=5920) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:56.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:58:56.580+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:58:56.580+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:59.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:58:59.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.554 seconds
+[2024-04-30T13:59:29.439+0000] {processor.py:161} INFO - Started process (PID=5966) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:59:29.440+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T13:59:29.442+0000] {logging_mixin.py:188} INFO - [2024-04-30T13:59:29.442+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:59:31.937+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T13:59:31.954+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.521 seconds
+[2024-04-30T14:00:02.486+0000] {processor.py:161} INFO - Started process (PID=6012) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:02.487+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:00:02.489+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:00:02.489+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:04.961+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:04.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.497 seconds
+[2024-04-30T14:00:35.313+0000] {processor.py:161} INFO - Started process (PID=6058) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:35.314+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:00:35.316+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:00:35.316+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:37.714+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:00:37.729+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.422 seconds
+[2024-04-30T14:01:08.073+0000] {processor.py:161} INFO - Started process (PID=6104) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:08.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:01:08.076+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:01:08.076+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:10.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:10.550+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.485 seconds
+[2024-04-30T14:01:41.059+0000] {processor.py:161} INFO - Started process (PID=6150) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:41.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:01:41.063+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:01:41.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:43.675+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:01:43.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.637 seconds
+[2024-04-30T14:02:14.016+0000] {processor.py:161} INFO - Started process (PID=6196) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:14.017+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:02:14.019+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:02:14.018+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:16.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:16.500+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.491 seconds
+[2024-04-30T14:02:46.722+0000] {processor.py:161} INFO - Started process (PID=6248) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:46.723+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:02:46.725+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:02:46.725+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:49.218+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:02:49.232+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.516 seconds
+[2024-04-30T14:03:19.914+0000] {processor.py:161} INFO - Started process (PID=6294) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:19.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:03:19.917+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:03:19.917+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:22.388+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:22.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.502 seconds
+[2024-04-30T14:03:53.027+0000] {processor.py:161} INFO - Started process (PID=6340) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:53.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:03:53.031+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:03:53.031+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:55.944+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:03:55.958+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.939 seconds
+[2024-04-30T14:04:26.922+0000] {processor.py:161} INFO - Started process (PID=6386) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:04:26.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:04:26.925+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:04:26.925+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:04:29.886+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:04:29.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.988 seconds
+[2024-04-30T14:05:00.297+0000] {processor.py:161} INFO - Started process (PID=6432) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:00.298+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:05:00.301+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:05:00.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:03.159+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:03.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.882 seconds
+[2024-04-30T14:05:33.623+0000] {processor.py:161} INFO - Started process (PID=6478) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:33.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:05:33.627+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:05:33.626+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:36.473+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:05:36.486+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.871 seconds
+[2024-04-30T14:06:07.460+0000] {processor.py:161} INFO - Started process (PID=6527) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:07.461+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:06:07.463+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:06:07.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:10.310+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:10.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.871 seconds
+[2024-04-30T14:06:40.689+0000] {processor.py:161} INFO - Started process (PID=6576) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:40.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:06:40.693+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:06:40.692+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:43.470+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:06:43.485+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.803 seconds
+[2024-04-30T14:07:13.907+0000] {processor.py:161} INFO - Started process (PID=6622) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:13.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:07:13.912+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:07:13.912+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:16.705+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:16.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.818 seconds
+[2024-04-30T14:07:47.187+0000] {processor.py:161} INFO - Started process (PID=6674) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:47.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:07:47.190+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:07:47.190+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:50.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:07:50.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.844 seconds
+[2024-04-30T14:08:20.571+0000] {processor.py:161} INFO - Started process (PID=6720) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:20.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:08:20.574+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:08:20.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:23.357+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:23.370+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.809 seconds
+[2024-04-30T14:08:53.546+0000] {processor.py:161} INFO - Started process (PID=6766) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:53.547+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:08:53.550+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:08:53.549+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:56.652+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:08:56.665+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.125 seconds
+[2024-04-30T14:09:27.098+0000] {processor.py:161} INFO - Started process (PID=6812) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:09:27.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:09:27.102+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:09:27.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:09:29.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:09:29.960+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.869 seconds
+[2024-04-30T14:10:00.470+0000] {processor.py:161} INFO - Started process (PID=6858) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:00.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:10:00.474+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:10:00.473+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:03.273+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:03.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.823 seconds
+[2024-04-30T14:10:33.679+0000] {processor.py:161} INFO - Started process (PID=6904) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:33.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:10:33.682+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:10:33.682+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:36.451+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:10:36.466+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.795 seconds
+[2024-04-30T14:11:07.314+0000] {processor.py:161} INFO - Started process (PID=6950) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:07.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:11:07.317+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:11:07.317+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:10.150+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:10.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.861 seconds
+[2024-04-30T14:11:40.386+0000] {processor.py:161} INFO - Started process (PID=6996) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:40.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:11:40.389+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:11:40.389+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:43.236+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:11:43.256+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.877 seconds
+[2024-04-30T14:12:14.150+0000] {processor.py:161} INFO - Started process (PID=7042) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:14.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:12:14.153+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:12:14.153+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:16.672+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:16.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.546 seconds
+[2024-04-30T14:12:46.832+0000] {processor.py:161} INFO - Started process (PID=7088) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:46.833+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:12:46.835+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:12:46.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:49.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:12:49.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.998 seconds
+[2024-04-30T14:13:20.179+0000] {processor.py:161} INFO - Started process (PID=7140) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:20.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:13:20.183+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:13:20.182+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:22.501+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:22.517+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.343 seconds
+[2024-04-30T14:13:52.829+0000] {processor.py:161} INFO - Started process (PID=7192) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:52.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:13:52.833+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:13:52.832+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:55.218+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:13:55.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.412 seconds
+[2024-04-30T14:14:25.905+0000] {processor.py:161} INFO - Started process (PID=7238) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:14:25.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:14:25.908+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:14:25.908+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:14:28.467+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:14:28.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.584 seconds
+[2024-04-30T14:14:58.708+0000] {processor.py:161} INFO - Started process (PID=7284) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:14:58.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:14:58.711+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:14:58.711+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:15:01.044+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:15:01.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.360 seconds
+[2024-04-30T14:15:31.163+0000] {processor.py:161} INFO - Started process (PID=7330) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:15:31.164+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:15:31.166+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:15:31.166+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:15:33.644+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:15:33.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.499 seconds
+[2024-04-30T14:16:03.986+0000] {processor.py:161} INFO - Started process (PID=7376) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:03.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:16:03.989+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:16:03.988+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:06.474+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:06.490+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.511 seconds
+[2024-04-30T14:16:36.617+0000] {processor.py:161} INFO - Started process (PID=7423) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:36.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:16:36.620+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:16:36.620+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:39.208+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:16:39.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.610 seconds
+[2024-04-30T14:17:09.563+0000] {processor.py:161} INFO - Started process (PID=7470) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:09.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:17:09.568+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:17:09.567+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:12.004+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:12.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.463 seconds
+[2024-04-30T14:17:42.622+0000] {processor.py:161} INFO - Started process (PID=7516) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:42.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:17:42.625+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:17:42.625+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:45.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:17:45.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.530 seconds
+[2024-04-30T14:18:15.939+0000] {processor.py:161} INFO - Started process (PID=7562) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:15.941+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:18:15.942+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:18:15.942+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:18.401+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:18.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.484 seconds
+[2024-04-30T14:18:48.988+0000] {processor.py:161} INFO - Started process (PID=7614) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:48.989+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:18:48.991+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:18:48.990+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:51.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:18:51.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.378 seconds
+[2024-04-30T14:19:22.119+0000] {processor.py:161} INFO - Started process (PID=7661) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:22.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:19:22.122+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:19:22.122+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:24.460+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:24.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.363 seconds
+[2024-04-30T14:19:54.775+0000] {processor.py:161} INFO - Started process (PID=7707) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:54.777+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:19:54.779+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:19:54.778+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:57.024+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:19:57.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.271 seconds
+[2024-04-30T14:20:27.678+0000] {processor.py:161} INFO - Started process (PID=7753) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:20:27.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:20:27.681+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:20:27.681+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:20:29.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:20:29.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.299 seconds
+[2024-04-30T14:21:00.528+0000] {processor.py:161} INFO - Started process (PID=7799) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:00.529+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:21:00.531+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:21:00.530+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:02.826+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:02.842+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.320 seconds
+[2024-04-30T14:21:33.472+0000] {processor.py:161} INFO - Started process (PID=7845) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:33.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:21:33.475+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:21:33.474+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:35.734+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:21:35.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.294 seconds
+[2024-04-30T14:22:06.377+0000] {processor.py:161} INFO - Started process (PID=7897) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:06.378+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:22:06.380+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:22:06.380+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:08.600+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:08.617+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.246 seconds
+[2024-04-30T14:22:39.266+0000] {processor.py:161} INFO - Started process (PID=7944) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:39.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:22:39.269+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:22:39.269+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:41.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:22:41.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.259 seconds
+[2024-04-30T14:23:12.167+0000] {processor.py:161} INFO - Started process (PID=7990) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:12.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:23:12.170+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:23:12.170+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:14.393+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:14.410+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.249 seconds
+[2024-04-30T14:23:45.149+0000] {processor.py:161} INFO - Started process (PID=8036) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:45.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:23:45.152+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:23:45.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:47.465+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:23:47.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.339 seconds
+[2024-04-30T14:24:17.916+0000] {processor.py:161} INFO - Started process (PID=8082) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:17.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:24:17.919+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:24:17.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:20.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:20.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.353 seconds
+[2024-04-30T14:24:50.564+0000] {processor.py:161} INFO - Started process (PID=8134) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:50.566+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:24:50.568+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:24:50.568+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:52.990+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:24:53.005+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.447 seconds
+[2024-04-30T14:25:23.197+0000] {processor.py:161} INFO - Started process (PID=8180) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:23.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:25:23.200+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:25:23.200+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:25.527+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:25.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.350 seconds
+[2024-04-30T14:25:55.771+0000] {processor.py:161} INFO - Started process (PID=8226) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:55.772+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:25:55.774+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:25:55.774+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:58.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:25:58.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.296 seconds
+[2024-04-30T14:26:28.799+0000] {processor.py:161} INFO - Started process (PID=8272) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:26:28.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:26:28.802+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:26:28.802+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:26:31.232+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:26:31.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.453 seconds
+[2024-04-30T14:27:01.615+0000] {processor.py:161} INFO - Started process (PID=8318) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:01.616+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:27:01.618+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:27:01.618+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:03.954+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:03.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.362 seconds
+[2024-04-30T14:27:34.478+0000] {processor.py:161} INFO - Started process (PID=8364) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:34.479+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:27:34.481+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:27:34.481+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:36.858+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:27:36.870+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.398 seconds
+[2024-04-30T14:28:07.766+0000] {processor.py:161} INFO - Started process (PID=8410) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:07.767+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:28:07.769+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:28:07.768+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:10.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:10.068+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.308 seconds
+[2024-04-30T14:28:40.555+0000] {processor.py:161} INFO - Started process (PID=8456) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:40.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:28:40.558+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:28:40.558+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:42.975+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:28:42.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.445 seconds
+[2024-04-30T14:29:13.773+0000] {processor.py:161} INFO - Started process (PID=8502) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:13.774+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:29:13.776+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:29:13.776+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:16.178+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:16.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.426 seconds
+[2024-04-30T14:29:46.569+0000] {processor.py:161} INFO - Started process (PID=8548) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:46.571+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:29:46.573+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:29:46.573+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:49.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:29:49.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.570 seconds
+[2024-04-30T14:30:19.451+0000] {processor.py:161} INFO - Started process (PID=8604) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:19.452+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:30:19.456+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:30:19.456+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:22.113+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:22.142+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.701 seconds
+[2024-04-30T14:30:52.811+0000] {processor.py:161} INFO - Started process (PID=8653) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:52.812+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:30:52.814+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:30:52.814+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:55.182+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:30:55.201+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.397 seconds
+[2024-04-30T14:31:25.900+0000] {processor.py:161} INFO - Started process (PID=8699) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:31:25.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:31:25.904+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:31:25.903+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:31:28.373+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:31:28.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.493 seconds
+[2024-04-30T14:31:58.703+0000] {processor.py:161} INFO - Started process (PID=8745) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:31:58.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:31:58.706+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:31:58.705+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:32:01.355+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:32:01.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.676 seconds
+[2024-04-30T14:32:32.113+0000] {processor.py:161} INFO - Started process (PID=8791) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:32:32.115+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:32:32.119+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:32:32.118+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:32:34.530+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:32:34.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.441 seconds
+[2024-04-30T14:33:04.976+0000] {processor.py:161} INFO - Started process (PID=8837) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:04.977+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:33:04.979+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:33:04.979+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:07.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:07.377+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.407 seconds
+[2024-04-30T14:33:37.571+0000] {processor.py:161} INFO - Started process (PID=8883) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:37.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:33:37.574+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:33:37.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:39.924+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:33:39.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.392 seconds
+[2024-04-30T14:46:39.912+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:46:39.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:46:39.915+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:46:39.915+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:46:42.868+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:46:42.884+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.979 seconds
+[2024-04-30T14:47:13.284+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:47:13.286+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:47:13.289+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:47:13.289+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:47:15.731+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:47:15.730+0000] {process_utils.py:263} INFO - Waiting up to 5 seconds for processes to exit...
+[2024-04-30T14:49:08.575+0000] {processor.py:161} INFO - Started process (PID=179) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:08.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:49:08.579+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:49:08.578+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:11.604+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:11.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 3.050 seconds
+[2024-04-30T14:49:41.928+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:41.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/extract_transform.py for tasks to queue
+[2024-04-30T14:49:41.931+0000] {logging_mixin.py:188} INFO - [2024-04-30T14:49:41.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:44.437+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/extract_transform.py
+[2024-04-30T14:49:44.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/extract_transform.py took 2.537 seconds

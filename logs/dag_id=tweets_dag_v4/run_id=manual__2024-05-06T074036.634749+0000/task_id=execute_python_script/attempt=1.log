@@ -1,0 +1,15 @@
+[2024-05-06T07:41:00.164+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-06T07:41:00.254+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: tweets_dag_v4.execute_python_script manual__2024-05-06T07:40:36.634749+00:00 [queued]>
+[2024-05-06T07:41:00.278+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: tweets_dag_v4.execute_python_script manual__2024-05-06T07:40:36.634749+00:00 [queued]>
+[2024-05-06T07:41:00.281+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 6
+[2024-05-06T07:41:00.331+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): execute_python_script> on 2024-05-06 07:40:36.634749+00:00
+[2024-05-06T07:41:00.404+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=495) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-06T07:41:00.410+0000] {standard_task_runner.py:63} INFO - Started process 684 to run task
+[2024-05-06T07:41:00.409+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'tweets_dag_v4', 'execute_python_script', 'manual__2024-05-06T07:40:36.634749+00:00', '--job-id', '160', '--raw', '--subdir', 'DAGS_FOLDER/twitter_data_dag.py', '--cfg-path', '/tmp/tmpx97k8pbo']
+[2024-05-06T07:41:00.418+0000] {standard_task_runner.py:91} INFO - Job 160: Subtask execute_python_script
+[2024-05-06T07:41:00.590+0000] {task_command.py:426} INFO - Running <TaskInstance: tweets_dag_v4.execute_python_script manual__2024-05-06T07:40:36.634749+00:00 [running]> on host bc28b2896df0
+[2024-05-06T07:41:00.924+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='stan' AIRFLOW_CTX_DAG_ID='tweets_dag_v4' AIRFLOW_CTX_TASK_ID='execute_python_script' AIRFLOW_CTX_EXECUTION_DATE='2024-05-06T07:40:36.634749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-06T07:40:36.634749+00:00'
+[2024-05-06T07:41:00.931+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-06T07:42:43.803+0000] {local_task_job_runner.py:240} INFO - Task exited with return code -9
+[2024-05-06T07:42:44.071+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-06T07:42:44.082+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

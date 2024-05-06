@@ -3,8 +3,8 @@ from airflow import  DAG
 from airflow.providers.postgres.operators.postgres import PostgresOperator
 from airflow.operators.python_operator import PythonOperator
 
-from load_to_postgres import load_csv_postgres 
-from extract_transform import  roberta_classifier
+from scripts.load_to_postgres import load_csv_postgres 
+from scripts.extract_transform import  roberta_classifier
 
 default_args = {
     'owner': 'stan',
@@ -13,15 +13,15 @@ default_args = {
 }
 
 with DAG(
-    dag_id = 'tweets_dag_v4',
+    dag_id = 'tweets_dag',
     default_args=default_args,
-    start_date=datetime(2024, 4, 30),
+    start_date=datetime.today(),
     schedule_interval='@daily'
 ) as dag:
 
     initialize_database_task = PostgresOperator(
         task_id = 'init_tweets_db',
-        postgres_conn_id='tweets_localhost',
+        postgres_conn_id='postgres_database',
         sql = "./scripts/init_db.sql"
     )
 
