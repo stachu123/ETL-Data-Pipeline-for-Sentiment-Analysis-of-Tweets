@@ -669,3 +669,8 @@ Please take a look at these docs to improve your DAG import time:
 [2024-05-06T08:00:55.678+0000] {logging_mixin.py:188} INFO - [2024-05-06T08:00:55.678+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/load_to_postgres.py
 [2024-05-06T08:00:56.145+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/load_to_postgres.py
 [2024-05-06T08:00:56.157+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/load_to_postgres.py took 0.488 seconds
+[2024-05-06T08:01:26.482+0000] {processor.py:161} INFO - Started process (PID=2530) to work on /opt/airflow/dags/scripts/load_to_postgres.py
+[2024-05-06T08:01:26.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/scripts/load_to_postgres.py for tasks to queue
+[2024-05-06T08:01:26.485+0000] {logging_mixin.py:188} INFO - [2024-05-06T08:01:26.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/load_to_postgres.py
+[2024-05-06T08:01:27.042+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/load_to_postgres.py
+[2024-05-06T08:01:27.054+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/scripts/load_to_postgres.py took 0.579 seconds

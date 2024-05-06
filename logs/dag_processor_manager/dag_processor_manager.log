@@ -32154,3 +32154,469 @@ File Path                                       PID    Runtime      # DAGs    # 
 /opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.52s           2024-05-06T07:37:10
 ================================================================================
 [2024-05-06T07:37:36.312+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
+[2024-05-06T07:39:00.735+0000] {manager.py:470} INFO - Processing files using up to 2 processes at a time 
+[2024-05-06T07:39:00.737+0000] {manager.py:471} INFO - Process each file at most once every 30 seconds
+[2024-05-06T07:39:00.739+0000] {manager.py:472} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-05-06T07:39:00.741+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-06T07:39:00.903+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-05-06T07:39:01.172+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/twitter_data_dag.py             173  0.05s             0           0
+/opt/airflow/dags/scripts/extract_transform.py                           0           0
+/opt/airflow/dags/scripts/load_to_postgres.py     169  0.18s             0           0
+================================================================================
+[2024-05-06T07:39:31.331+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  4.93s           2024-05-06T07:39:06
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.99s           2024-05-06T07:39:05
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.99s           2024-05-06T07:39:02
+================================================================================
+[2024-05-06T07:40:01.730+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  4.19s           2024-05-06T07:39:40
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  4.10s           2024-05-06T07:39:40
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.54s           2024-05-06T07:39:33
+================================================================================
+[2024-05-06T07:40:31.888+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.97s           2024-05-06T07:40:13
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.86s           2024-05-06T07:40:13
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.37s           2024-05-06T07:40:05
+================================================================================
+[2024-05-06T07:41:02.569+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  12.32s          2024-05-06T07:40:56
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  12.02s          2024-05-06T07:40:56
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.60s           2024-05-06T07:40:36
+================================================================================
+[2024-05-06T07:41:34.566+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py             709  7.37s             1           0  12.32s          2024-05-06T07:40:56
+/opt/airflow/dags/scripts/extract_transform.py    705  8.15s             0           0  12.02s          2024-05-06T07:40:56
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  6.34s           2024-05-06T07:41:13
+================================================================================
+[2024-05-06T07:41:57.237+0000] {manager.py:1016} ERROR - Processor for /opt/airflow/dags/scripts/extract_transform.py exited with return code 1.
+[2024-05-06T07:41:57.444+0000] {manager.py:1016} ERROR - Processor for /opt/airflow/dags/twitter_data_dag.py exited with return code 1.
+[2024-05-06T07:42:07.190+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0          -1  30.83s          2024-05-06T07:41:57
+/opt/airflow/dags/twitter_data_dag.py                                    0          -1  30.25s          2024-05-06T07:41:57
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  2.23s           2024-05-06T07:41:59
+================================================================================
+[2024-05-06T07:42:40.108+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0          -1  30.83s          2024-05-06T07:41:57
+/opt/airflow/dags/twitter_data_dag.py             802  0.01s             0          -1  30.25s          2024-05-06T07:41:57
+/opt/airflow/dags/scripts/load_to_postgres.py     801  0.07s             0           0  2.23s           2024-05-06T07:41:59
+================================================================================
+[2024-05-06T07:43:10.427+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  21.34s          2024-05-06T07:43:01
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  12.73s          2024-05-06T07:42:52
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  7.96s           2024-05-06T07:43:00
+================================================================================
+[2024-05-06T07:43:40.876+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  5.40s           2024-05-06T07:43:36
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  4.93s           2024-05-06T07:43:16
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.91s           2024-05-06T07:43:23
+================================================================================
+[2024-05-06T07:44:01.047+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-06T07:44:01.181+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-05-06T07:44:11.290+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  5.70s           2024-05-06T07:43:52
+/opt/airflow/dags/scripts/extract_transform.py    970  5.05s             0           0  5.40s           2024-05-06T07:43:36
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.65s           2024-05-06T07:43:55
+================================================================================
+[2024-05-06T07:44:41.408+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  5.63s           2024-05-06T07:44:28
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  5.31s           2024-05-06T07:44:11
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.18s           2024-05-06T07:44:27
+================================================================================
+[2024-05-06T07:45:11.880+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  5.43s           2024-05-06T07:44:47
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  5.43s           2024-05-06T07:45:03
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.13s           2024-05-06T07:44:59
+================================================================================
+[2024-05-06T07:45:42.435+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  5.82s           2024-05-06T07:45:23
+/opt/airflow/dags/twitter_data_dag.py            1113  0.00s             1           0  5.42s           2024-05-06T07:45:33
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  1.39s           2024-05-06T07:45:30
+================================================================================
+[2024-05-06T07:46:12.843+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  6.58s           2024-05-06T07:45:49
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  5.17s           2024-05-06T07:45:58
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.90s           2024-05-06T07:46:01
+================================================================================
+[2024-05-06T07:46:43.290+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  4.05s           2024-05-06T07:46:33
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  3.30s           2024-05-06T07:46:22
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.97s           2024-05-06T07:46:33
+================================================================================
+[2024-05-06T07:47:13.582+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  4.90s           2024-05-06T07:46:58
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.52s           2024-05-06T07:47:05
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.57s           2024-05-06T07:47:03
+================================================================================
+[2024-05-06T07:47:44.113+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  3.29s           2024-05-06T07:47:31
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.42s           2024-05-06T07:47:38
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.54s           2024-05-06T07:47:34
+================================================================================
+[2024-05-06T07:48:14.262+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.64s           2024-05-06T07:48:04
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.28s           2024-05-06T07:48:11
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.54s           2024-05-06T07:48:05
+================================================================================
+[2024-05-06T07:48:44.808+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.57s           2024-05-06T07:48:37
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.32s           2024-05-06T07:48:43
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.52s           2024-05-06T07:48:35
+================================================================================
+[2024-05-06T07:49:01.948+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-06T07:49:02.050+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-05-06T07:49:15.697+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.53s           2024-05-06T07:49:10
+/opt/airflow/dags/scripts/extract_transform.py   1477  1.01s             0           0  2.32s           2024-05-06T07:48:43
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:49:06
+================================================================================
+[2024-05-06T07:49:45.798+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.49s           2024-05-06T07:49:43
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.39s           2024-05-06T07:49:17
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.52s           2024-05-06T07:49:37
+================================================================================
+[2024-05-06T07:50:16.090+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py            1552  2.02s             1           0  2.49s           2024-05-06T07:49:43
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.33s           2024-05-06T07:49:49
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.55s           2024-05-06T07:50:08
+================================================================================
+[2024-05-06T07:50:46.182+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.56s           2024-05-06T07:50:16
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.32s           2024-05-06T07:50:22
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.51s           2024-05-06T07:50:39
+================================================================================
+[2024-05-06T07:51:16.472+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.53s           2024-05-06T07:50:49
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.36s           2024-05-06T07:50:55
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:51:10
+================================================================================
+[2024-05-06T07:51:47.075+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.49s           2024-05-06T07:51:22
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.35s           2024-05-06T07:51:28
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.49s           2024-05-06T07:51:41
+================================================================================
+[2024-05-06T07:52:17.843+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.58s           2024-05-06T07:51:55
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.35s           2024-05-06T07:52:01
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.53s           2024-05-06T07:52:12
+================================================================================
+[2024-05-06T07:52:48.144+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:52:28
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.35s           2024-05-06T07:52:34
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.49s           2024-05-06T07:52:43
+================================================================================
+[2024-05-06T07:53:18.834+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.57s           2024-05-06T07:53:01
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.43s           2024-05-06T07:53:07
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:53:13
+================================================================================
+[2024-05-06T07:53:49.545+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.52s           2024-05-06T07:53:34
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.31s           2024-05-06T07:53:40
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.49s           2024-05-06T07:53:44
+================================================================================
+[2024-05-06T07:54:02.654+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-06T07:54:02.756+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-05-06T07:54:20.331+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.56s           2024-05-06T07:54:07
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.33s           2024-05-06T07:54:13
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.51s           2024-05-06T07:54:15
+================================================================================
+[2024-05-06T07:54:50.397+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.51s           2024-05-06T07:54:39
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.41s           2024-05-06T07:54:46
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.60s           2024-05-06T07:54:46
+================================================================================
+[2024-05-06T07:55:20.918+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.49s           2024-05-06T07:55:12
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.38s           2024-05-06T07:55:19
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.52s           2024-05-06T07:55:17
+================================================================================
+[2024-05-06T07:55:51.722+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:55:45
+/opt/airflow/dags/scripts/extract_transform.py   2047  2.02s             0           0  2.38s           2024-05-06T07:55:19
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:55:47
+================================================================================
+[2024-05-06T07:56:22.616+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.57s           2024-05-06T07:56:18
+/opt/airflow/dags/scripts/extract_transform.py   2093  0.00s             0           0  2.34s           2024-05-06T07:55:52
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.57s           2024-05-06T07:56:18
+================================================================================
+[2024-05-06T07:56:53.179+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.52s           2024-05-06T07:56:51
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.33s           2024-05-06T07:56:24
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.53s           2024-05-06T07:56:49
+================================================================================
+[2024-05-06T07:57:23.732+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py            2168  2.02s             1           0  2.52s           2024-05-06T07:56:51
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.31s           2024-05-06T07:56:57
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.49s           2024-05-06T07:57:20
+================================================================================
+[2024-05-06T07:57:53.742+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.52s           2024-05-06T07:57:24
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.35s           2024-05-06T07:57:30
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:57:50
+================================================================================
+[2024-05-06T07:58:24.050+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:57:57
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.32s           2024-05-06T07:58:03
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.51s           2024-05-06T07:58:22
+================================================================================
+[2024-05-06T07:58:54.667+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:58:30
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.37s           2024-05-06T07:58:36
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.52s           2024-05-06T07:58:52
+================================================================================
+[2024-05-06T07:59:02.742+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-05-06T07:59:02.863+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-05-06T07:59:25.004+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:59:03
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.38s           2024-05-06T07:59:09
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.53s           2024-05-06T07:59:23
+================================================================================
+[2024-05-06T07:59:55.062+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T07:59:36
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.32s           2024-05-06T07:59:41
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.50s           2024-05-06T07:59:54
+================================================================================
+[2024-05-06T08:00:25.376+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.68s           2024-05-06T08:00:15
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T08:00:08
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.53s           2024-05-06T08:00:25
+================================================================================
+[2024-05-06T08:00:55.651+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.88s           2024-05-06T08:00:41
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.35s           2024-05-06T08:00:47
+/opt/airflow/dags/scripts/load_to_postgres.py    2484  0.00s             0           0  0.53s           2024-05-06T08:00:25
+================================================================================
+[2024-05-06T08:01:25.724+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/twitter_data_dag.py                                    1           0  2.54s           2024-05-06T08:01:14
+/opt/airflow/dags/scripts/extract_transform.py                           0           0  2.31s           2024-05-06T08:01:20
+/opt/airflow/dags/scripts/load_to_postgres.py                            0           0  0.52s           2024-05-06T08:00:56
+================================================================================
+[2024-05-06T08:01:38.653+0000] {manager.py:452} INFO - Exiting gracefully upon receiving signal 15
